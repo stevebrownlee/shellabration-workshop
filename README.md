@@ -7,7 +7,6 @@
 	* Mac
 	* Linux
 	* Windows with [Ubuntu installed in WSL](https://learn.microsoft.com/en-us/windows/wsl/install)
-	* Windows with [Putty SSH Client](https://putty.org/) installed
 3. Collaborative mindset - you will be working with teammates.
 
 ## Overview
