@@ -24,3 +24,17 @@ You will use some powerful tools you may not know exist.
 * PS3 prompt
 
 When we're done, you will have an interactive bash script that will automate the process of creating a git repository, connecting it with Github, and having the appropriate `.gitignore` file created for the project type.
+
+## How to Run Your Script
+
+Make the file executable first with the following command.
+
+```sh
+chmod +x hookup.sh
+```
+
+Then run it with the following command.
+
+```sh
+./hookup.sh
+```
