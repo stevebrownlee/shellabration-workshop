@@ -1,5 +1,9 @@
 # Shellabration
 
+## Preview
+
+![](./hookup.gif)
+
 ## Prerequisites
 
 1. If you use Visual Studio Code as your main editor, install the [shell-format](https://marketplace.visualstudio.com/items?itemName=foxundermoon.shell-format) extension
