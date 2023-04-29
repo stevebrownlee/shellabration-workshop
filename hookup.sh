@@ -12,7 +12,8 @@
 
 
 # STEP 2 ======================================================
-# Prompt user which kind of gitignore is needed
+# Prompt user which kind of gitignore is needed.
+# The code provided works, so you can skip to step 3.
 echo "What type of .gitignore do you need?"
 PS3='> '
 options=("Python" "Django" "Dotnet" "Quit")
