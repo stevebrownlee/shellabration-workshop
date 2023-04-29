@@ -1,7 +1,8 @@
 #!/bin/bash
 
 # STEP 1 ======================================================
-# Clear the terminal (https://phoenixnap.com/kb/clear-terminal)
+# Clear the terminal
+# LLM prompt: "How can I clear the terminal in a bash script?"
 
 
 
@@ -42,7 +43,7 @@ echo "Github SSH URL:"
 # STEP 3 ======================================================
 # Prompt user for the Github SSH connection string
 # Use the `read` command to capture the input in an SSH variable
-#       https://linuxconfig.org/bash-scripting-read-input-from-command-line
+# LLM prompt: "How I read user input, with a prompt, in a bash script?"
 
 
 
@@ -54,10 +55,11 @@ echo "Github SSH URL:"
 
 # STEP 4 ======================================================
 # Check if the .git directory exists
-#     https://linuxconfig.org/bash-scripting-check-if-directory-exists
 #
 # If it does, echo "FAILED: Already intialized"
 # If it doesn't initialize with `git init`
+#
+# LLM prompt: "How can I check if a directory exists in a bash script?"
 DIRECTORY=".git"
 if [ ]; then
 
@@ -76,11 +78,14 @@ fi
 # STEP 5 ======================================================
 # Use the `git remote add origin` command to add the remote origin
 # Use the value of the SSH variable at the end of the command
+# LLM prompt: "How do I place the value of a variable in a command in a bash script?"
 #
 # Extra credit for after the workshop:
 # If the command fails with an exit code, echo the following message
 #   "FAILED: Remote origin already exists"
-#   https://unix.stackexchange.com/questions/340855/bash-assign-output-error-to-variable
+#
+# LLM prompt: "How do I place the value of a variable in a command in a bash script?"
+# Web article: https://unix.stackexchange.com/questions/340855/bash-assign-output-error-to-variable
 
 
 
@@ -97,8 +102,10 @@ fi
 # If user chose Python above: https://raw.githubusercontent.com/github/gitignore/main/Python.gitignore
 # If user chose Django above: https://raw.githubusercontent.com/pedroserrudo/django-gitignore/main/.gitignore
 # If user chose Dotnet above: https://raw.githubusercontent.com/microsoft/dotnet/main/.gitignore
+#
+# LLM prompt: "How do I check the value of a variable with an `if` statement in bash?"
 
-if [ "$TYPE" == "Python" ]; then
+if [  ]; then
     echo "Getting standard Python .gitignore"
     GITIGNORE_URL=https://raw.githubusercontent.com/github/gitignore/main/Python.gitignore
 
